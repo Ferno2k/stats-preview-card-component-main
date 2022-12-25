@@ -125,9 +125,8 @@
     color: var(--clr-neutral-100);
   }
 
-  a, .em_only_decoration {
+  .em_only_decoration {
     color: var(--clr-secondory-200);
-    text-decoration: none;
   }
 
   p {
@@ -163,6 +162,12 @@
   .attribution {
     font-size: 0.8rem;
     text-align: center;
+  }
+
+  a {
+    color: var(--clr-secondory-200);
+    font-weight: var(--fw-bold);
+    text-decoration: none;
   }
 
   /* Desktop */
